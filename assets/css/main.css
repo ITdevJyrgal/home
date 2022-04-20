@@ -75,6 +75,8 @@ input:focus {
 }
 .img-fluid {
   width: 100%;
+  height: 350px;
+  object-fit:cover;
 }
 /* Classes */
 main {
@@ -314,6 +316,10 @@ nav {
 .aboutus-wrapper {
   flex-wrap: wrap;
 }
+
+.logo {
+  padding-top: 25px;
+}
 .aboutus-img {
   width: 55%;
 }
@@ -332,6 +338,12 @@ nav {
   width: 42%;
   margin: 50px auto 0;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+}
+.newsletter-wrapper input {
+  margin: 15px 0;
 }
 .newsletter-wrapper input {
   width: 330px;
@@ -544,4 +556,9 @@ footer ul li a:hover {
   h3 {
     margin-bottom: 10px;
   }
+}
+.gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
